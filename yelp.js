@@ -8,7 +8,7 @@ var apiUrl = "http://api.yelp.com/v3/businesses/search?location=Cleveland&radius
 fetch(apiUrl, {
     headers: new Headers({
         Authorization: "Bearer " + apiKey,
-        "Access-Control-Allow-Origin" : "*"
+        "Access-Control-Allow-Origin" : "https://jdister1.github.io/test-for-stephanie/"
     }),
     method: "GET",
     mode:"cors"
